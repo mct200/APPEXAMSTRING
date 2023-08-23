@@ -1,0 +1,9 @@
+<div class="container">
+    <h2>Liste des Déclarants</h2>
+    <ul class="list-group">
+      <li class="list-group-item" *ngFor="let declarant of declarants">
+        {{ declarant.raisonSociale }} - {{ declarant.adresse }} - {{ declarant.telephone }}
+      </li>
+    </ul>
+  </div>
+  
